@@ -73,6 +73,14 @@
             left: 100px;
         }
         
+        .silex-id-1500731532788-11 {
+            width: 400px;
+            height: 400px;
+            background-color: transparent;
+            top: 51px;
+            left: 60px;
+        }
+        
         .silex-id-1478366450713-3 {
             top: 100px;
             left: NaNpx;
@@ -87,7 +95,7 @@
     </style>
     <title></title>
     <script type="text/javascript" class="silex-json-styles">
-        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"600px","background-color":"transparent","width":"1200px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366444112-1":{"top":"100px","left":"NaNpx","background-color":"transparent"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366450713-3":{"top":"100px","left":"NaNpx","background-color":"transparent"},"silex-id-1500730605565-0":{"width":"338px","min-height":"37px","top":"25px","left":"28px"},"silex-id-1500730720676-1":{"width":"250px","background-color":"rgb(255, 255, 255)","min-height":"561px","top":"19px","left":"931px"},"silex-id-1500730745412-4":{"width":"","background-color":"","min-height":"100px"},"silex-id-1500730755876-6":{"width":"149px","min-height":"133px","top":"17px","left":"44px"},"silex-id-1500731267211-10":{"width":"38px","min-height":"51px","top":"125px","left":"105px"}},"mobile":{},"componentData":{}}]
+        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"600px","background-color":"transparent","width":"1200px"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366444112-1":{"top":"100px","left":"NaNpx","background-color":"transparent"},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px"},"silex-id-1478366450713-3":{"top":"100px","left":"NaNpx","background-color":"transparent"},"silex-id-1500730605565-0":{"width":"338px","min-height":"37px","top":"25px","left":"28px"},"silex-id-1500730720676-1":{"width":"250px","background-color":"rgb(255, 255, 255)","min-height":"561px","top":"19px","left":"931px"},"silex-id-1500730745412-4":{"width":"","background-color":"","min-height":"100px"},"silex-id-1500730755876-6":{"width":"149px","min-height":"133px","top":"17px","left":"44px"},"silex-id-1500731267211-10":{"width":"38px","min-height":"51px","top":"81px","left":"100px"},"silex-id-1500731532788-11":{"width":"400px","height":"400px","background-color":"transparent","top":"60px","left":"487px"}},"mobile":{},"componentData":{"silex-id-1500731532788-11":{"name":"form1","templateName":"form"}}}]
     </script>
 
 
@@ -159,6 +167,90 @@
                             <font color="#ff9900" class="normal" face="trebuchet ms, sans-serif">Add</font>
                         </p>
                     </div>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1500731532788-11 html-element silex-component silex-component-form silex-use-height-not-minheight" data-silex-id="silex-id-1500731532788-11">
+                <div class="silex-element-content">
+                    <form id="id_1500731532788_220" action="https://formspree.io/your@email.com" method="POST">
+
+                        <div>
+                            <label for="field1">Name</label>
+                            <input type="text" required="" id="field1" name="field1" placeholder="Your name">
+                        </div>
+
+
+                        <div>
+                            <label for="field2">Your email adress</label>
+                            <input type="text" required="" id="field2" name="field2" placeholder="your@email.com">
+                        </div>
+
+
+                        <div class="fill-vertical">
+                            <label for="field3">Your message</label>
+                            <textarea required="" id="field3" name="field3" placeholder="What you have to say"></textarea>
+                        </div>
+
+                        <input type="submit" value="Send">
+                    </form>
+                    <style>
+                        #id_1500731532788_220 input[type=text],
+                        select {
+                            width: 100%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: 3px;
+                            box-sizing: border-box;
+                        }
+                        
+                        #id_1500731532788_220 input[type=submit] {
+                            width: 100%;
+                            background-color: #4CAF50;
+                            color: #FFFFFF;
+                            padding: 14px 20px;
+                            margin: 8px 0;
+                            border: 1px solid #4CAF50;
+                            border-radius: 3px;
+                            cursor: pointer;
+                        }
+                        
+                        #id_1500731532788_220 label {
+                            color: #000000;
+                        }
+                        /* *************************** */
+                        /* resize the 3rd field
+   and fill the vertical space */
+                        
+                        #id_1500731532788_220 .fill-vertical {
+                            flex: 1 1 auto;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        #id_1500731532788_220 .fill-vertical textarea {
+                            flex: 1 1 auto;
+                            width: 100%;
+                            height: 150px;
+                            padding: 12px 20px;
+                            box-sizing: border-box;
+                            border: 2px solid #ccc;
+                            border-radius: 3px;
+                            background-color: #f8f8f8;
+                            font-size: 16px;
+                            resize: none;
+                        }
+                        /* ************************ */
+                        
+                        #id_1500731532788_220 {
+                            border-radius: 3px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 100%;
+                        }
+                    </style>
+
                 </div>
             </div>
         </div>
